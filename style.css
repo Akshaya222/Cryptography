@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#output1,#output2{
+    display: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.firstBox{
+    background-color:#a171e3;
+    min-height: 100vh;
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secondBox{
+    background-color:#f205ee;
+    min-height: 100vh;
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    margin-top: -100px;
+    margin-bottom: 100px;
+    font-size:45px;
+}
+label{
+    font-size:25px ;
+}
+input{
+    border-radius: 15px;
+    padding: 10px;
+    border: 3px black solid;
+}
+input:active{
+    outline: none;
+}
+#oValue,#o2Value{
+    font-family: bolder;
+    font-size: 30px;
+}
